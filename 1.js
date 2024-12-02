@@ -1,11 +1,20 @@
 `use strict`
-//sham hason
-const num = 15;
+//Sham Hason and Sofia Kononenko
 
-let isDivdableBy2 = Number(num%2 === 0);
-let isDivdableBy3 = Number(num%3 === 0);
-let isDivdableBy5 = Number(num%5 === 0);
+//this program checks if the number we want to check is divisible by 2, 3, and 5, then counts and logs the total number of true conditions.
+const num = 0;
 
-console.log(isDivdableBy2+isDivdableBy3+isDivdableBy5);
+if(num===0)
+console.log("the number 0 can't be divided")
+
+else{
+let isDivBy2 = Number(num % 2 === 0);//condition 1
+let isDivBy3 = Number(num % 3 === 0);//condition 2
+let isDivBy5 = Number(num % 5 === 0);//condition 3
+
+const totalDiv = isDivBy2 + isDivBy3 + isDivBy5;//total number of true conditions
+
+console.log(totalDiv);
+}
 
 
